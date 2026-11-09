@@ -33,7 +33,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == '__main__':
     # Bot Token ထည့်သွင်းခြင်း
-    token = "https://core.telegram.org/bots/api    "
+    token = "8682983278:AAH81HLMrbrxU9qEKOjM5Tv9NKH1Lv2w9Nc"
     application = ApplicationBuilder().token(token).build()
 
     # Handlers များ ချိတ်ဆက်ခြင်း
