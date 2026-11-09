@@ -33,7 +33,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == '__main__':
     # Bot Token ထည့်သွင်းခြင်း
-    token = "8682983278:AAH81HLMrbrxU9qEKOjM5Tv9NKH1Lv2w9Nc"
+    token = "8682983278:AAGfAV-Yny49objALLwmdmeSDFtgIXAOGfQ"
     application = ApplicationBuilder().token(token).build()
 
     # Handlers များ ချိတ်ဆက်ခြင်း
@@ -42,3 +42,4 @@ if __name__ == '__main__':
 
     print("Bot စတင်အလုပ်လုပ်နေပါပြီ...")
     application.run_polling()
+
